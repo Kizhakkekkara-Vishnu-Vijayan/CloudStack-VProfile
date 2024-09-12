@@ -11,8 +11,8 @@
 
 ## VM SETUP
 1. Clone source code.
-2. Cd into the repository.
-3. Switch to the main branch.
+> **# git clone https://github.com/Kizhakkekkara-Vishnu-Vijayan/Clone-directory.git**
+3. cd into Clone-directory.
 4. cd into vagrant/Manual_provisioning
 
 **Bring up vm's**
@@ -32,11 +32,18 @@
 ```
 
 ### Setup should be done in below mentioned order
+#### Follow the Database-conf.md setup
 ```
 MySQL (Database SVC)
 Memcache (DB Caching SVC)
+```
+#### Follow the Backend-conf.md setup
+```
 RabbitMQ (Broker/Queue SVC)
 Tomcat (Application SVC)
+```
+#### Follow the Frontend-conf.md setup
+```
 Nginx (Web SVC)
 ```
 
