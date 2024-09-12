@@ -59,7 +59,7 @@ mysql> exit;
 ### Download Source code & Initialize Database.
 ```
 git clone https://github.com/Kizhakkekkara-Vishnu-Vijayan/Clone-directory.git
-cd vprofile-project
+cd Clone-directory
 mysql -u root -padmin123 accounts < src/main/resources/db_backup.sql
 mysql -u root -padmin123 accounts
 ```
